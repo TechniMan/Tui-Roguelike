@@ -1,7 +1,7 @@
-﻿using MyFirstTuiProject.Entities;
-using Terminal.Gui;
+﻿using Terminal.Gui;
+using TuiRoguelike.Entities;
 
-namespace MyFirstTuiProject.World;
+namespace TuiRoguelike.World;
 
 internal class RectangularRoom
 {

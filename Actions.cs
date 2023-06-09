@@ -1,8 +1,8 @@
-﻿using MyFirstTuiProject.Entities;
-using MyFirstTuiProject.World;
-using Terminal.Gui;
+﻿using Terminal.Gui;
+using TuiRoguelike.Entities;
+using TuiRoguelike.World;
 
-namespace MyFirstTuiProject;
+namespace TuiRoguelike;
 
 internal interface IAction
 {
@@ -17,7 +17,7 @@ internal class EscapeAction : IAction
     }
 }
 
-internal class MovementAction: IAction
+internal class MovementAction : IAction
 {
     private readonly int _dx;
     private readonly int _dy;

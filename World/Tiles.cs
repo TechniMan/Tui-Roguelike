@@ -1,6 +1,6 @@
 ﻿using Terminal.Gui;
 
-namespace MyFirstTuiProject.World;
+namespace TuiRoguelike.World;
 
 internal class TileGraphics
 {

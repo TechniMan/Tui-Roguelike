@@ -1,6 +1,6 @@
 ﻿using Terminal.Gui;
 
-namespace MyFirstTuiProject.Entities;
+namespace TuiRoguelike.Entities;
 
 /// <summary>
 /// A generic object to represent players, enemies, items, etc.

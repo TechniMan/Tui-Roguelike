@@ -1,13 +1,13 @@
 ﻿using Terminal.Gui;
 
-namespace MyFirstTuiProject;
+namespace TuiRoguelike;
 
 internal interface IInputHandler
 {
     public IAction? Dispatch(Key key);
 }
 
-internal class EventHandler: IInputHandler
+internal class EventHandler : IInputHandler
 {
     public IAction? Dispatch(Key key)
     {

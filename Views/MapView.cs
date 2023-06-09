@@ -1,8 +1,8 @@
-﻿using MyFirstTuiProject.Entities;
-using MyFirstTuiProject.World;
-using Terminal.Gui;
+﻿using Terminal.Gui;
+using TuiRoguelike.Entities;
+using TuiRoguelike.World;
 
-namespace MyFirstTuiProject.Views;
+namespace TuiRoguelike.Views;
 
 internal class MapView : View
 {

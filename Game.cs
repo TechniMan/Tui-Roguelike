@@ -1,11 +1,11 @@
-﻿using MyFirstTuiProject.Entities;
-using MyFirstTuiProject.Views;
-using MyFirstTuiProject.World;
-using Terminal.Gui;
+﻿using Terminal.Gui;
+using TuiRoguelike.Entities;
+using TuiRoguelike.Views;
+using TuiRoguelike.World;
 
-namespace MyFirstTuiProject;
+namespace TuiRoguelike;
 
-internal class Game: Toplevel
+internal class Game : Toplevel
 {
     // things
     private readonly Entity _player;
@@ -46,7 +46,7 @@ internal class Game: Toplevel
             Height = mapHeight
         };
         Add(_map);
-        
+
         // initialise game map
         var roomMinSize = 6;
         var roomMaxSize = 10;
